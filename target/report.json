@@ -1,0 +1,80 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 10132050600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que acesso a pagina de compras",
+            "match": {
+              "location": "ShoppingAutomationSteps.java:22"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-24T22:40:56.831Z",
+        "line": 20,
+        "name": "Produto da busca não encontrado",
+        "description": "",
+        "id": "realizar-uma-compra-online;produto-da-busca-não-encontrado",
+        "after": [
+          {
+            "result": {
+              "duration": 2366573200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4325232800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "realizo a busca de um produto inválido",
+            "match": {
+              "location": "ShoppingAutomationSteps.java:97"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 121432300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "aparece uma mensagem de busca inválida",
+            "match": {
+              "location": "ShoppingAutomationSteps.java:104"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Realizar uma compra online",
+    "description": "  Como cliente\n  Eu quero realizar uma compra online",
+    "id": "realizar-uma-compra-online",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/main/java/feature/ShoppingAutomation.feature",
+    "tags": []
+  }
+]
